@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <!-- External files directory where your app can store persistent files -->
+    <external-path name="external_files" path="Android/data/com.yourpackage/files/" />
+    
+    <!-- External cache directory for temporary files -->
+    <external-cache-path name="cache" path="Android/data/com.yourpackage/cache/" />
+
+    <!-- Internal storage root directory, use cautiously -->
+    <!-- You can specify more targeted internal storage paths as needed -->
+    <root-path name="root" path="/" />
+</paths>
